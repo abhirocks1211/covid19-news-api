@@ -15,8 +15,8 @@ app.use("/api/covid19", router);
 
 app.get("/", (request, response) => {
   response.json({
-    message: "Welcome to COVID19 NEWS API",
-    link: "https://github.com/einnar82/covid19-news-api"
+    message: "Welcome to COVID19 NEWS",
+    link: "https://github.com/abhirocks1211/covid19-news-api"
   });
 });
 
